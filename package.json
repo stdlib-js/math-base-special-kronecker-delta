@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-kronecker-delta",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Evaluate the Kronecker delta.",
   "license": "Apache-2.0",
   "author": {
@@ -14,7 +14,7 @@
     }
   ],
   "main": "./lib",
-  "gypfile": true,
+  "gypfile": false,
   "directories": {
     "benchmark": "./benchmark",
     "doc": "./docs",

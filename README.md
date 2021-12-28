@@ -20,7 +20,7 @@ limitations under the License.
 
 # Kronecker Delta
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Evaluate the [Kronecker delta][kronecker-delta].
 
@@ -91,12 +91,12 @@ v = kroneckerDelta( NaN, NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var linspace = require( '@stdlib/array-linspace' );
+var linspace = require( '@stdlib/array-base-linspace' );
 var kroneckerDelta = require( '@stdlib/math-base-special-kronecker-delta' );
 
 var x = linspace( -1.0, 1.0, 101 );
-var i;
 
+var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( 'kronecker(%d,%d) = %d', x[ i ], 0.0, kroneckerDelta( x[ i ], 0.0 ) );
 }
@@ -261,8 +261,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-kronecker-delta/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-kronecker-delta?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/math-base-special-kronecker-delta.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/math-base-special-kronecker-delta/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/

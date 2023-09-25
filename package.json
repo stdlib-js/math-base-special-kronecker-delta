@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-kronecker-delta",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Evaluate the Kronecker delta.",
   "license": "Apache-2.0",
   "author": {

@@ -1,5 +1,36 @@
-"use strict";var u=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var i=u(function(o,n){
-var t=require('@stdlib/math-base-assert-is-nan/dist');function s(e,r){return t(e)||t(r)?NaN:e===r?1:0}n.exports=s
-});var a=i();module.exports=a;
 /** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
+
+'use strict';
+
+/**
+* Evaluate the Kronecker delta.
+*
+* @module @stdlib/math-base-special-kronecker-delta
+*
+* @example
+* var kroneckerDelta = require( '@stdlib/math-base-special-kronecker-delta' );
+*
+* var v = kroneckerDelta( 3.14, 3.14 );
+* // returns 1.0
+*
+* v = kroneckerDelta( 3.14, 0.0 );
+* // returns 0.0
+*
+* v = kroneckerDelta( NaN, 3.14 );
+* // returns NaN
+*
+* v = kroneckerDelta( 3.14, NaN );
+* // returns NaN
+*
+* v = kroneckerDelta( NaN, NaN );
+* // returns NaN
+*/
+
+// MODULES //
+
+var main = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = main;

@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-23)
+## Unreleased (2025-08-15)
 
 <section class="issues">
 
@@ -24,6 +24,10 @@ This release closes the following issue:
 
 <details>
 
+-   [`6f85067`](https://github.com/stdlib-js/stdlib/commit/6f8506775cdf2b3edf740216340ff7a0a82677dc) - **test:** fix malformed test descriptions from strictEqual migration _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`aa8b15b`](https://github.com/stdlib-js/stdlib/commit/aa8b15b9c8aa11db7dc584b0368fedeb98ef885a) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`46cbdfe`](https://github.com/stdlib-js/stdlib/commit/46cbdfeff1b3f2dc38a442eafaf0cc25239fc518) - **docs:** replace manual `for` loop in examples [(#6639)](https://github.com/stdlib-js/stdlib/pull/6639) _(by Harsh)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_

@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-15)
+## Unreleased (2026-01-29)
 
 <section class="issues">
 
@@ -28,11 +28,11 @@ This release closes the following issue:
 -   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`65ddf8d`](https://github.com/stdlib-js/stdlib/commit/65ddf8d4d51ccfda52d1c5a06408e43fb386c27e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`aa8b15b`](https://github.com/stdlib-js/stdlib/commit/aa8b15b9c8aa11db7dc584b0368fedeb98ef885a) - **docs:** minor clean-up _(by Philipp Burckhardt)_
--   [`46cbdfe`](https://github.com/stdlib-js/stdlib/commit/46cbdfeff1b3f2dc38a442eafaf0cc25239fc518) - **docs:** replace manual `for` loop in examples [(#6639)](https://github.com/stdlib-js/stdlib/pull/6639) _(by Harsh)_
+-   [`46cbdfe`](https://github.com/stdlib-js/stdlib/commit/46cbdfeff1b3f2dc38a442eafaf0cc25239fc518) - **docs:** replace manual `for` loop in examples [(#6639)](https://github.com/stdlib-js/stdlib/pull/6639) _(by Harsh Yadav)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`57efa3d`](https://github.com/stdlib-js/stdlib/commit/57efa3d9de9c4c2f0a94387079e356dad7649a40) - **chore:** rename C files to follow current project conventions [(#6410)](https://github.com/stdlib-js/stdlib/pull/6410) _(by Karan Anand, stdlib-bot)_
--   [`6c9505b`](https://github.com/stdlib-js/stdlib/commit/6c9505bc0d1b920718155d7f5118d9b0bd400ff0) - **chore:** fix C lint errors [(#5262)](https://github.com/stdlib-js/stdlib/pull/5262) _(by GK Bishnoi)_
+-   [`6c9505b`](https://github.com/stdlib-js/stdlib/commit/6c9505bc0d1b920718155d7f5118d9b0bd400ff0) - **chore:** fix C lint errors [(#5262)](https://github.com/stdlib-js/stdlib/pull/5262) _(by Gopi Kishan)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 
 </details>
@@ -47,8 +47,8 @@ This release closes the following issue:
 
 A total of 4 people contributed to this release. Thank you to the following contributors:
 
--   GK Bishnoi
--   Harsh
+-   Gopi Kishan
+-   Harsh Yadav
 -   Karan Anand
 -   Philipp Burckhardt
 
